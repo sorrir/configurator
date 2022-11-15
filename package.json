@@ -1,0 +1,32 @@
+{
+  "name": "sorrirconfigwa",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --incremental",
+    "start": "node dist/app.js",
+    "load-setup-info": "node dist/setupinfo-client.js",
+    "load-devices-info": "node dist/devices-client.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bent": "^7.3.2",
+    "@types/node": "^10.0.0",
+    "@types/yargs": "^16.0.1",
+    "bent": "^7.3.12",
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "yargs": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/lodash": "^4.14.176",
+    "typescript": "^4.4.4"
+  }
+}
